@@ -1,0 +1,24 @@
+﻿生成启动时间为 2011/12/26 20:42:33。
+     1>项目“e:\zh99998\documents\visual studio 2010\Projects\notify-send\notify-send\notify-send.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“e:\zh99998\documents\visual studio 2010\Projects\notify-send\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\notify-send.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\soft\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         D:\soft\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"e:\zh99998\documents\visual studio 2010\Projects\notify-send\Release\notify-send.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\notify-send.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"e:\zh99998\documents\visual studio 2010\Projects\notify-send\Release\notify-send.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"e:\zh99998\documents\visual studio 2010\Projects\notify-send\Release\notify-send.lib" /MACHINE:X86 Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         notify-send.vcxproj -> e:\zh99998\documents\visual studio 2010\Projects\notify-send\Release\notify-send.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"e:\zh99998\documents\visual studio 2010\Projects\notify-send\Release\notify-send.exe;#1" /manifest "Release\notify-send.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\notify-send.unsuccessfulbuild”。
+         正在对“Release\notify-send.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“e:\zh99998\documents\visual studio 2010\Projects\notify-send\notify-send\notify-send.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.20
