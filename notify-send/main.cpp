@@ -64,7 +64,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	nid.uID = 0;
 	nid.uFlags = NIF_ICON|NIF_MESSAGE|NIF_TIP|NIF_INFO;
 	nid.uCallbackMessage = WM_SHOWTASK;
-	nid.hIcon = (HICON)LoadImage(NULL, iconPath, IMAGE_ICON, 0, 0, LR_DEFAULTSIZE);
+	nid.hIcon = (HICON)LoadImage(NULL, iconPath, IMAGE_ICON, 0, 0, LR_LOADFROMFILE|LR_CREATEDIBSECTION);
 	wcscpy_s(nid.szTip, title);
 	wcscpy_s(nid.szInfo, title);
 	wcscpy_s(nid.szInfoTitle, message);
