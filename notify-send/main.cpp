@@ -12,7 +12,7 @@ NOTIFYICONDATA nid;
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 
 // = Ö÷º¯”µ =================================================================================== //
-int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow){
+int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow){
 	LPWSTR title   = LPWSTR("");
 	LPWSTR message = LPWSTR("");
 	LPWSTR iconPath = LPWSTR("");
@@ -66,8 +66,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	nid.uCallbackMessage = WM_SHOWTASK;
 	nid.hIcon = (HICON)LoadImage(NULL, iconPath, IMAGE_ICON, 0, 0, LR_LOADFROMFILE|LR_CREATEDIBSECTION);
 	wcscpy_s(nid.szTip, title);
-	wcscpy_s(nid.szInfo, title);
-	wcscpy_s(nid.szInfoTitle, message);
+	wcscpy_s(nid.szInfo, message);
+	wcscpy_s(nid.szInfoTitle, title);
 	nid.dwInfoFlags = NIIF_INFO;
 	nid.uTimeout = 5000;
 	
